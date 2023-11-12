@@ -1,0 +1,61 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  /* Hero Section */
+  
+  #Hero-Section {
+    background-image: url("../imgs/tokin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  #Hero-Section h1 {
+    background-color: black;
+  }
+  
+  #yo {
+    background-color: black;
+  }
+  
+  #Acerca-de-mi p{
+    background-color: white;
+  }
+  
+  
+  #Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Mi Experiencia */
+  .card {
+    min-height: 450px;
+  }
+  
+  
+  #experiencia img {
+    width: 100px;
+  }
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand {
+      width: 100px;
+    }
+  }
+  .bg-dark {
+    background-color: black !important;
+  }
+  
